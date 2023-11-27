@@ -1,0 +1,1 @@
+Playing around with the python SDK. First steps: copy the [youtube tutorial](https://www.youtube.com/watch?v=M7FZAkasGpQ) to see how it all works
