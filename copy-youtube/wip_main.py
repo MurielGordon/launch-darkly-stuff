@@ -5,7 +5,7 @@ from ldclient.config import Config
 
 app = Flask(__name__)
 
-#is this still relevant? I think v9 has something about not needing users
+
 context = {
     "kind": "user",
     "key": "example-user-key",
