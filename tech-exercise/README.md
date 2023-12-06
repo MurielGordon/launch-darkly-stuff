@@ -21,12 +21,16 @@ Once you've got a live Project to work with, navigate to **Feature flags** in th
 Next let's get the LDClient set up on your local machine. Use pip install to [install the Python server SDK.](https://docs.launchdarkly.com/sdk/server-side/python#getting-started)
 
 After installing the SDK, you will need to import the LaunchDarkly client into your application code:
-- import ldclient
-- from ldclient.config import Config
+```
+import ldclient
+from ldclient.config import Config
+```
 
 Next you will need to instantiate the LDClient in your code:
-- ldclient.set_config(Config("sdk-key-123abc"))
-- client = ldclient.get()
+```
+ldclient.set_config(Config("sdk-key-123abc"))
+client = ldclient.get()
+```
 
 The SDK key (sdk-key-123abc) will need to come from the SDK that is connected to your LaunchDarkly Project. Navigate to Account Settings > Projects > select your project > copy the SDK key for the Project environment you intend to use.
 
