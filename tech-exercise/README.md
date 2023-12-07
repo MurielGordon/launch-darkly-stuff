@@ -32,7 +32,7 @@ ldclient.set_config(Config("sdk-key-123abc"))
 client = ldclient.get()
 ```
 
-The SDK key (sdk-key-123abc) will need to come from the SDK that is connected to your LaunchDarkly Project. Navigate to **Account Settings > Projects** > select your project > copy the SDK key for the Project environment you intend to use.
+The SDK key will need to come from the SDK that is connected to your LaunchDarkly Project. Navigate to **Account Settings > Projects** > select your project > copy the SDK key for the Project environment you intend to use.
 
 The rest of the code you'll need to run this program is the following:
 ```
