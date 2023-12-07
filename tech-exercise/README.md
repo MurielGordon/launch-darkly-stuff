@@ -12,7 +12,7 @@ Prompt:
 
 After requirements 1-4 have been met on your machine you are ready to start working with the LaunchDarkly UI and LaunchDarkly SDK. 
 
-If you are not working with an existing [LaunchDarkly Project](https://docs.launchdarkly.com/home/organize/projects), a new one can be created by going to **Account Settings > Projects > Create Project.** From there the SDK setup wizard will walk you through the process of connecting an SDK to your Project, as well as a short program to help you verify that the connection was successful. 
+If you are not working with an existing [LaunchDarkly Project](https://docs.launchdarkly.com/home/organize/projects), a new one can be created by going to **Account Settings > Projects > Create Project.** From there the SDK setup wizard will walk you through the process of connecting an SDK to your Project, as well as a short program to help you verify that the connection was successful. The program test.py in this GitHub repo is an example of this connection test.
 
 If you're working with an existing Project, instructions for where to find your SDK key will come later in this tutorial.
 
